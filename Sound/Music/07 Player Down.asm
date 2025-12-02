@@ -8,30 +8,30 @@ Player_Down_Header:
 
 	; DAC Channel
 	dw	Player_Down_DAC
-        db	00, 00h
+	db	00, 00h
 	; FM1 Channel
 	dw	Player_Down_FM1
-        db	01, 00h
+	db	01, 00h
 	; FM2 Channel
 	dw	Player_Down_FM2
-        db	-01, 08h
+	db	-01, 08h
 	; FM3 Channel
 	dw	Player_Down_FM3
-        db	-11, 10h
+	db	-11, 10h
 	; FM4 Channel
 	dw	Player_Down_FM4
-        db	-11, 10h
+	db	-11, 10h
 	; FM5 Channel
 	dw	Player_Down_FM5
-        db	-11, 20h
+	db	-11, 20h
 	; PSG1 Channel
 	dw	Player_Down_PSG1
-        db	-11, 08h
-        db	01, 01
+	db	-11, 08h
+	db	01, 01
 	; PSG2 Channel
 	dw	Player_Down_PSG2
-        db	-11, 08h
-        db	00, 02
+	db	-11, 08h
+	db	00, 02
 
 ; 1A75
 ; FM3 Data
